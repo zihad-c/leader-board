@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board</title>
     <!-- stylesheet -->
+    <script src="https://kit.fontawesome.com/d96fb866d2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,25 +21,163 @@
     <!-- main start -->
     <main>
         <!-- top players and top blogs start -->
-        <section>
+        <section class="container">
             <div class="top-players">
+                <h2 class="section-title">Top Player</h2>
                 <div class="players">
-                    <div class="player-item"><img src="" alt="">
+                    <!-- .player-item*6>img[src="images/player/player-$.png"]+h3{Top Player -$} -->
+                    <div class="player-item">
+                        <img src="images/players/player-1.png" alt="player">
+                        <h3 class="player-name">Top Player 01</h3>
                     </div>
-                    <div class="player-item"><img src="" alt="">
+                    <div class="player-item">
+                        <img src="images/players/player-2.png" alt="player">
+                        <h3 class="player-name">Top Player 02</h3>
                     </div>
-                    <div class="player-item"><img src="" alt="">
+                    <div class="player-item">
+                        <img src="images/players/player-3.png" alt="player">
+                        <h3 class="player-name">Top Player 03</h3>
                     </div>
-                    <div class="player-item"><img src="" alt="">
+                    <div class="player-item">
+                        <img src="images/players/player-4.png" alt="player">
+                        <h3 class="player-name">Top Player 04</h3>
                     </div>
-                    <div class="player-item"><img src="" alt="">
+                    <div class="player-item">
+                        <img src="images/players/player-5.png" alt="player">
+                        <h3 class="player-name">Top Player 05</h3>
                     </div>
-                    <div class="player-item"><img src="" alt="">
+                    <div class="player-item">
+                        <img src="images/players/player-6.png" alt="player">
+                        <h3 class="player-name">Top Player 06</h3>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="top-blogs">
+                <h2 class="section-title">Top Blog</h2>
+                <div class="blogs">
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-1.png" alt="blog">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
+                            <p class="blog-author">By <a href="#">Danny Sapio</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-2.png" alt="blog">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
+                            <p class="blog-author">By <a href="#">Danny Sapio</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-3.png" alt="blog">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
+                            <p class="blog-author">By <a href="#">Danny Sapio</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-4.png" alt="blog">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
+                            <p class="blog-author">By <a href="#">Danny Sapio</a>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- latest course start -->
+        <section class="container">
+            <h2 class="section-title">Latest Course</h2>
+            <div class="latest-course">
+                <div class="course-item">
+                    <div class="course-banner">
+                        <img src="images/courses/course-1.png" alt="course">
+                    </div>
+                    <div class="course-details">
+                        <h3 class="course-title">React - The Complete <br> Guide 2020</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="far fa-star empty"></i>
+                                <span class="rating">4.5</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="far fa-clock"></i>
+                                <span class="clock">01.30 hr</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-banner">
+                        <img src="images/courses/course-2.png" alt="course">
+                    </div>
+                    <div class="course-details">
+                        <h3 class="course-title">Powerpoint 2020 <br> Master Powerpoint Cour</h3>
+                        <p class="course-author">Walter Scott.</p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="far fa-star empty"></i>
+                                <span class="rating">4.5</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="far fa-clock"></i>
+                                <span class="clock">01.30 hr</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-banner">
+                        <img src="images/courses/course-3.png" alt="course">
+                    </div>
+                    <div class="course-details">
+                        <h3 class="course-title">The Complete JavaScript <br> Course 2020</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="far fa-star empty"></i>
+                                <span class="rating">4.5</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="far fa-clock"></i>
+                                <span class="clock">01.30 hr</span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
-        <!-- top players and top blogs end -->
+        <!-- latest course end -->
     </main>
     <!-- main end -->
 </body>
