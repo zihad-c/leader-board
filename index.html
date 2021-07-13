@@ -14,16 +14,30 @@
 <body>
     <!-- header start -->
     <header>
-
+        <nav>
+            <div class="navbar">
+                <div class="left-nav">
+                    <img src="images/icons/logo.png" alt="logo">
+                    <span>Idea</span>
+                </div>
+                <div class="right-nav">
+                    <ul>
+                        <li><a target="_blank" href="#">Home</a></li>
+                        <li><a target="_blank" href="#">About</a></li>
+                        <li><a target="_blank" href="#">Work</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <!-- header end -->
 
     <!-- main start -->
     <main>
         <!-- top players and top blogs start -->
-        <section class="container">
+        <section id="first-section" class="container">
             <div class="top-players">
-                <h2 class="section-title">Top Player</h2>
+                <h2 id="section-title-player" class="section-title">Top Player</h2>
                 <div class="players">
                     <!-- .player-item*6>img[src="images/player/player-$.png"]+h3{Top Player -$} -->
                     <div class="player-item">
@@ -54,7 +68,7 @@
             </div>
             <hr>
             <div class="top-blogs">
-                <h2 class="section-title">Top Blog</h2>
+                <h2 id="section-title-blog" class="section-title">Top Blog</h2>
                 <div class="blogs">
                     <article class="blog">
                         <div class="thumbnail">
@@ -99,9 +113,11 @@
                 </div>
             </div>
         </section>
+        <!-- top players and top blogs end -->
+
         <!-- latest course start -->
-        <section class="container">
-            <h2 class="section-title">Latest Course</h2>
+        <section id="last-section" class="container">
+            <h2 id="section-title-course" class="section-title">Latest Course</h2>
             <div class="latest-course">
                 <div class="course-item">
                     <div class="course-banner">
